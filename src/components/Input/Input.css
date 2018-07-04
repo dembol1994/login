@@ -1,0 +1,99 @@
+.Input {
+    height: 110px;
+    width: 85%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+}
+
+.Message {
+    position: absolute;
+    right: 0;
+    box-sizing: border-box;
+    padding: 5px 0;
+    height: 25px;
+    color: red;
+}
+
+.Checkbox {
+    height: 40px;
+    width: 85%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: block;
+}
+
+.OuterDivCheckout {
+    height: 40px;
+}
+.Label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.InputElement {
+    height: 50px;
+    border: 1px solid% ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.InputDiv {
+    border-radius: 5px;
+    overflow:hidden;
+    width: 100%;
+}
+
+.tr {
+    content: "";
+    position: absolute;
+    top: 27px;
+    right: 0;
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    border-top: 35px solid #0094bb;
+    z-index:0;
+}
+.InputDiv p:hover {
+    cursor: pointer;
+}
+.InputDiv p:hover:before {
+    content: "required";
+    font-size: 12px;
+    position: absolute;
+    border-radius: 3px;
+    top: -40px;
+    right: -10px;
+    padding: 6px;
+    width: auto;
+    height: 15px;
+    background-color: #0094bb;
+    display: block;
+}
+
+.InputDiv p {
+    position: absolute;
+    right: 5px;
+    top: 30px;
+    color:white;
+    z-index:1;
+    margin:0;
+    padding:0;
+}
+
+.InvalidInput {
+    border: 2px solid red;
+}
+
+.InvalidLabel {
+    color: red;
+}
